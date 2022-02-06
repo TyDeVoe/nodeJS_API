@@ -8,7 +8,7 @@ const fs = require('fs')
 app.get('/',(req,res)=>{
     res.send("Hello HTTPS!");
 });
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 
 
